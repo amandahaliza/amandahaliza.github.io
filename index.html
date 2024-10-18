@@ -303,35 +303,87 @@
 
     </section>
 
-    <section id="contact" class="py-5 bg-light" data-aos="fade-up" data-aos-duration="3000">
-        <div class="container">
-            <h2 class="text-center mb-4">Contact</h2>
-            <div class="row">
-                <div class="col-md-8 mx-auto">
-                    <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email">
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea name="message" id="message" class="form-control" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-info">Submit</button>
-                    </form>
+    <section id="contact" class="Contact">
+
+        <!-- Section Title -->
+        <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p></p>
+        </div><!-- End Section Title -->
+  
+        <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+  
+          <div class="info-wrap aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-5">
+  
+              <div class="col-lg-4">
+                <div class="info-item d-flex align-items-center">
+                  <div>
+                    <h3>Address</h3>
+                    <p>Lebak Jaya 3, Palembang, no.99</p>
+                  </div>
                 </div>
+              </div><!-- End Info Item -->
+  
+              <div class="col-lg-4">
+                <div class="info-item d-flex align-items-center">
+                  <div>
+                    <h3>Call Us</h3>
+                    <p>+1 5589 55488 55</p>
+                  </div>
+                </div>
+              </div><!-- End Info Item -->
+  
+              <div class="col-lg-4">
+                <div class="info-item d-flex align-items-center">
+                  <div>
+                    <h3>Email Us</h3>
+                    <p>zihniamandaa@gmail.com</p>
+                  </div>
+                </div>
+              </div><!-- End Info Item -->
+  
             </div>
+          </div>
+  
+          <form class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <div class="row gy-4">
+  
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+              </div>
+  
+              <div class="col-md-6 ">
+                <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+              </div>
+  
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+              </div>
+  
+              <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+              </div>
+  
+              <div class="col-md-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <button type="submit" class="btn btn-info">Send Message</button>
+              </div>
+  
+            </div>
+          </form><!-- End Contact Form -->
+  
         </div>
-    </section>
+  
+      </section>
 
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Amanda. All Rights Reserved.</p>
     </footer>
 
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short"></i></a>
 
 
     <!-- Content goes here -->
